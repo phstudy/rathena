@@ -4,7 +4,6 @@ MAINTAINER Study Hsueh <ph.study@gmail.com>
 RUN apt-get update -q
 RUN apt-get install -qy make gcc libmysqlclient-dev zlib1g-dev libpcre3-dev mysql-client curl
 
-# Clone a GIT repository
 ADD . /rAthena
 
 WORKDIR /rAthena
